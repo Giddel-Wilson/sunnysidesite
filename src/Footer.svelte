@@ -54,6 +54,13 @@
     justify-content: space-between;
     align-items: center;
   }
+  
+  @media (max-width: 1026px) {
+    .linkShell a {
+      font-size: small;
+    }
+  }
+
   .iS2 {
     width: 15vw;
     flex-direction: row;

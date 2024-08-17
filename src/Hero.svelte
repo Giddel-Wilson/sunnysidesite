@@ -40,6 +40,13 @@
     left: 0;
     z-index: 1;
   }
+
+  @media (max-width: 679px) {
+    h1 {
+      font-size: 60px;
+    }
+  }
+
   img {
     width: 100%;
     height: 100%;
@@ -48,6 +55,5 @@
     object-fit: cover;
     object-position: bottom;
     position: absolute;
-    
   }
 </style>

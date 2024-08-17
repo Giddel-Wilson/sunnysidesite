@@ -55,7 +55,7 @@
     width: 100%;
     height: 100vh;
     padding: 150px;
-    display: flexbox;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -72,6 +72,11 @@
     justify-content: space-between;
     align-items: center;
   }
+  @media (max-width: 1026px) {
+    .testimonialShell {
+      flex-direction: column;
+    }
+  }
   .innerShell {
     width: 33vw;
     height: 100%;
@@ -81,6 +86,13 @@
     align-items: center;
     padding: 40px;
   }
+  
+  @media (max-width: 1020px) {
+    .innerShell {
+      width: 10%;
+    }
+  }
+
   .innerShell p {
     color: #6d7073;
     font-family: Arial, Helvetica, sans-serif;
@@ -89,13 +101,13 @@
     font-size: medium;
     font-weight: 550;
   }
-  /* .content {
-    background-color: red;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-  } */
+
+  @media (max-width: 1026px) {
+    .innerShell p {
+      font-size: small;
+      margin: 20px 0 20px 0;
+    }
+  }
   .pfp span {
     width: fit-content;
     height: fit-content;
@@ -113,8 +125,6 @@
     align-items: center;
   }
   .name {
-    /* font-family: "Merriweather", serif; */
-    /* font-weight: 900; */
     letter-spacing: 1.5px;
   }
   .position {

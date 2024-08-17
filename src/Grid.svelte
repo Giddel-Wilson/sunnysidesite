@@ -68,6 +68,13 @@
     display: flex;
     flex-direction: row;
   }
+  
+  @media (max-width: 1026px) {
+    .gridShell {
+      flex-direction: column;
+    }
+  }
+  
   .gridInnerShell {
     width: 50%;
   }
@@ -96,16 +103,35 @@
     justify-content: center;
     align-items: center;
   }
+
+  @media (max-width: 1026px) {
+    h1 {
+      width: 100%;
+      font-size: 40px;
+    }
+    .standOut {
+      width: 35vw;
+    }
+    
+  }
+
   h3 {
     height: fit-content;
     color: #24303d;
-    /* font-size: 30px; */
     text-align: left;
     display: flex;
     justify-content: left;
     align-items: center;
     letter-spacing: 1px;
   }
+
+  @media (max-width: 1026px) {
+    h3 {
+      width: 100%;
+      font-size: medium;
+    }
+  }
+
   p {
     color: #84828c;
     width: 90%;
@@ -119,6 +145,14 @@
     line-height: 25px;
     margin: 40px 0 40px 0;
   }
+
+  @media (max-width: 1026px) {
+    p {
+      width: 100%;
+      font-size: 15px;
+    }
+  }
+
   .card {
     /* border: 2px dashed red; */
     display: flex;
@@ -160,11 +194,25 @@
   .cardContent h1 {
     font-size: xx-large;
   }
+
+  @media (max-width: 1026px) {
+    .cardContent h1 {
+      font-size: x-large;
+    }
+  }
+
   .cardContent p {
     text-align: center;
     width: 60%;
     font-size: larger;
     line-height: 30px;
     font-weight: 550;
+  }
+
+  @media (max-width: 1026px) {
+    .cardContent p {
+      width: 70%;
+      font-size: 15px;
+    }
   }
 </style>
