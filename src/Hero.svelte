@@ -22,7 +22,7 @@
   }
   .creativeShell {
     width: 100vw;
-    height: 80vh;
+    height: 80%;
     position: relative;
     background-color: transparent;
   }

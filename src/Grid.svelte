@@ -98,7 +98,7 @@
   @media (max-width: 855px) {
     .gridInnerShell {
       width: 100%;
-      height: 70vh;
+      height: 100vh;
     }
   }
 
@@ -225,9 +225,17 @@
     align-items: center;
     position: relative;
   }
+
+  @media (max-width: 855px) {
+    .card {
+      height: 100vh;
+    }
+  }
+
   .card img {
     position: absolute;
   }
+
   .firstCard {
     background-color: #9adbcb;
   }
@@ -255,6 +263,14 @@
     position: absolute;
     /* z-index: 1; */
   }
+
+  @media (max-width: 855px) {
+    .cardContent {
+      height: fit-content;
+      margin: 0 0 -20px 0;
+    }
+  }
+
   .cardContent h1 {
     font-size: xx-large;
   }
@@ -262,6 +278,12 @@
   @media (max-width: 1026px) {
     .cardContent h1 {
       font-size: x-large;
+    }
+  }
+
+  @media (max-width: 855px) {
+    .cardContent h1 {
+      font-size: larger;
     }
   }
 
@@ -277,6 +299,13 @@
     .cardContent p {
       width: 70%;
       font-size: 15px;
+    }
+  }
+
+  @media (max-width: 855px) {
+    .cardContent p {
+      font-size: small;
+      line-height: 20px;
     }
   }
 </style>
