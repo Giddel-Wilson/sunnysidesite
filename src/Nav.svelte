@@ -25,9 +25,9 @@
     width: 100%;
   }
   
-  @media (max-width: 1020px) {
+  @media (max-width: 855px) {
     main {
-      padding: 50px 20px 50px 20px;
+      padding: 50px 35px 50px 35px;
     }
   }
 
@@ -40,13 +40,19 @@
     font-weight: 600;
   }
 
+  @media (max-width: 1070px) {
+    .linkShell {
+      width: 35vw;
+    }
+  }
+
   @media (max-width: 1026px) {
     .linkShell {
       font-size: small;
     }
   }
 
-  @media (max-width: 1020px) {
+  @media (max-width: 855px) {
     .linkShell {
       display: none;
     }
@@ -56,7 +62,7 @@
     display: none;
   }
 
-  @media (max-width: 1020px) {
+  @media (max-width: 855px) {
     .burger {
       display: block;
     }

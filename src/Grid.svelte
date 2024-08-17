@@ -2,7 +2,7 @@
 </script>
 
 <main>
-  <div class="gridShell">
+  <div class="gridShell gsEX">
     <section class="gridInnerShell content">
       <h1 class="transform">Tranform your brand</h1>
       <p>
@@ -68,31 +68,69 @@
     display: flex;
     flex-direction: row;
   }
-  
-  @media (max-width: 1026px) {
+
+  @media (max-width: 855px) {
+    .gridShell {
+      height: 100vh;
+    }
+  }
+
+  @media (max-width: 855px) {
     .gridShell {
       flex-direction: column;
     }
   }
-  
+
+  .gsEX {
+    flex-direction: row;
+  }
+
+  @media (max-width: 855px) {
+    .gsEX {
+      flex-direction: column-reverse;
+    }
+  }
+
   .gridInnerShell {
     width: 50%;
   }
+
+  @media (max-width: 855px) {
+    .gridInnerShell {
+      width: 100%;
+      height: 70vh;
+    }
+  }
+
   .gridInnerShell img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
+
   .content {
     padding: 120px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
   }
+
+  @media (max-width: 855px) {
+    .content {
+      padding: 30px;
+    }
+  }
+
   .transform {
-    width: 80%;
+    width: 90%;
   }
+
+  @media (max-width: 855px) {
+    .transform {
+      text-align: center;
+    }
+  }
+
   h1 {
     width: 100%;
     height: fit-content;
@@ -109,10 +147,24 @@
       width: 100%;
       font-size: 40px;
     }
-    .standOut {
-      width: 35vw;
+  }
+
+  @media (max-width: 855px) {
+    .transform {
+      font-size: xx-large;
     }
-    
+  }
+
+  .standOut {
+    width: 35vw;
+  }
+
+  @media (max-width: 855px) {
+    .standOut {
+      width: 100%;
+      text-align: center;
+      font-size: xx-large;
+    }
   }
 
   h3 {
@@ -129,6 +181,12 @@
     h3 {
       width: 100%;
       font-size: medium;
+    }
+  }
+
+  @media (max-width: 855px) {
+    h3 {
+      justify-content: center;
     }
   }
 
@@ -150,6 +208,12 @@
     p {
       width: 100%;
       font-size: 15px;
+    }
+  }
+
+  @media (max-width: 855px) {
+    p {
+      text-align: center;
     }
   }
 
