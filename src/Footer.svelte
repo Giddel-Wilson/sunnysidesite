@@ -32,6 +32,7 @@
   @media (max-width: 855px) {
     .mainShell {
       padding: 80px 50px 50px 50px;
+      height: 45vh;
     }
   }
 
