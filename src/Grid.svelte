@@ -73,7 +73,7 @@
 
   @media (max-width: 380px) {
     main {
-      margin: 200px 0 0 0;
+      margin: 170px 0 0 0;
     }
   }
 
