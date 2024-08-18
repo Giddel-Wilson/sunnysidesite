@@ -172,7 +172,7 @@
 
   @media (max-width: 855px) {
     .content {
-      padding: 0 30px 0 30px;
+      padding: 30px;
       height: max-content;
     }
   }
@@ -249,7 +249,6 @@
   @media (max-width: 855px) {
     h3 {
       justify-content: center;
-      padding: 0 0 50px 0;
     }
   }
 
