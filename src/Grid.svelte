@@ -203,7 +203,7 @@
 
   @media (max-width: 855px) {
     h1 {
-      padding: 30px 0 0 0;
+      padding: 0 0 0 0;
     }
   }
 
