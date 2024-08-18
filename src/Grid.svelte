@@ -131,7 +131,7 @@
   @media (max-width: 855px) {
     .gridInnerShell {
       width: 100%;
-      height: 100vh;
+      height: 50vh;
     }
   }
 
