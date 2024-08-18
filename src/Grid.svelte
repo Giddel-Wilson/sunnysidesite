@@ -13,7 +13,7 @@
 
       <h3>LEARN MORE</h3>
     </section>
-    <section class="gridInnerShell">
+    <section class="gridInnerShell transformImg">
       <img src="./image-transform.jpg" alt="" />
     </section>
   </div>
@@ -62,6 +62,13 @@
     flex-direction: column;
     flex-wrap: nowrap;
   }
+
+  @media (max-width: 855px) {
+    main {
+      height: max-content;
+    }
+  }
+
   .gridShell {
     width: 100%;
     height: 90vh;
@@ -88,6 +95,17 @@
   @media (max-width: 855px) {
     .gsEX {
       flex-direction: column-reverse;
+    }
+  }
+
+  .transformImg {
+    padding: 0 0 0 0;
+  }
+
+  @media (max-width: 415px) {
+    .transformImg {
+      padding: 100px 0 0 0;
+      background-color: #FFD302;
     }
   }
 
@@ -118,6 +136,7 @@
   @media (max-width: 855px) {
     .content {
       padding: 0 30px 0 30px;
+      height: 100vh;
     }
   }
 
@@ -146,6 +165,12 @@
     h1 {
       width: 100%;
       font-size: 40px;
+    }
+  }
+
+  @media (max-width: 855px) {
+    h1 {
+      padding: 50px 0 0 0;
     }
   }
 
@@ -187,6 +212,7 @@
   @media (max-width: 855px) {
     h3 {
       justify-content: center;
+      padding: 0 0 50px 0;
     }
   }
 

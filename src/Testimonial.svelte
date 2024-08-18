@@ -60,12 +60,26 @@
     justify-content: center;
     align-items: center;
   }
+
+  @media (max-width: 855px) {
+    main {
+      padding: 100px 20px 150px 20px;
+    }
+  }
+
   h2 {
     text-transform: uppercase;
     color: #a5a7a8;
     letter-spacing: 5px;
     margin: 0 0 50px 0;
   }
+
+  @media (max-width: 855px) {
+    h2 {
+      font-size: x-large;
+    }
+  }
+
   .testimonialShell {
     height: 100%;
     display: flex;

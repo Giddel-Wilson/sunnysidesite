@@ -26,12 +26,26 @@
     display: flex;
     flex-direction: row;
   }
+
+  @media (max-width: 855px) {
+    .mainShell {
+      flex-direction: column;
+    }
+  }
+
   .nutShell {
     width: 50%;
     height: 100%;
     display: flex;
     flex-direction: row;
   }
+
+  @media (max-width: 855px) {
+    .nutShell {
+      width: 100%;
+    }
+  }
+
   .innerShell {
     width: 50%;
     height: 100%;
