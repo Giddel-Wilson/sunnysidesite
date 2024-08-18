@@ -6,7 +6,12 @@
   <Nav />
   <section class="creativeShell">
     <h1>WE ARE CREATIVE</h1>
-    <img src="./image-header.jpg" alt="orange slice with blue background" />
+    <img class="desktop" src="./image-header.jpg" alt="orange slice with blue background" />
+    <img
+      class="mobile"
+      src="./image-header-mobile.jpg"
+      alt="orange slice with blue background"
+    />
   </section>
 </main>
 
@@ -47,7 +52,7 @@
     }
   }
 
-  img {
+  .desktop {
     width: 100%;
     height: 100%;
     top: 0;
@@ -55,5 +60,28 @@
     object-fit: cover;
     object-position: bottom;
     position: absolute;
+  }
+
+  @media (max-width: 855px) {
+    .desktop {
+      display: none;
+    }
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  @media (max-width: 855px) {
+    .mobile {
+      display: block;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      object-fit: cover;
+      object-position: top;
+      position: absolute;
+    }
   }
 </style>

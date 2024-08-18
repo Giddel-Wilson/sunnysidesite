@@ -14,12 +14,14 @@
       <h3>LEARN MORE</h3>
     </section>
     <section class="gridInnerShell transformImg">
-      <img src="./image-transform.jpg" alt="" />
+      <img class="desktop" src="./image-transform.jpg" alt="" />
+      <img class="mobile" src="./image-transform-mobile.jpg" alt="" />
     </section>
   </div>
   <div class="gridShell">
     <section class="gridInnerShell">
-      <img src="./image-stand-out.jpg" alt="" />
+      <img class="desktop" src="./image-stand-out.jpg" alt="" />
+      <img class="mobile" src="./image-stand-out-mobile.jpg" alt="" />
     </section>
     <section class="gridInnerShell content">
       <h1 class="standOut">Stand out to the right audience</h1>
@@ -102,9 +104,23 @@
     padding: 0 0 0 0;
   }
 
-  @media (max-width: 380px) {
-    .transformImg {
-      z-index: 1;
+  .mobile {
+    display: none;
+  }
+
+  @media (max-width: 855px) {
+    .mobile {
+      display: block;
+    }
+  }
+
+  .desktop {
+    display: block;
+  }
+
+  @media (max-width: 855px) {
+    .desktop {
+      display: none;
     }
   }
 
