@@ -96,6 +96,10 @@
     }
   }
 
+  .gridShellContent2 {
+    height: 100vh;
+  } 
+
   @media (max-width: 380px) {
     .gridShellContent2 {
       height: 120vh;
