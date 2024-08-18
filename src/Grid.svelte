@@ -96,7 +96,7 @@
     }
   }
 
-  .gridShellContent2 {
+  /* .gridShellContent2 {
     height: 100vh;
   } 
 
@@ -104,7 +104,7 @@
     .gridShellContent2 {
       height: 120vh;
     }
-  }
+  } */
 
   .gsEX {
     flex-direction: row;
@@ -173,7 +173,7 @@
   @media (max-width: 855px) {
     .content {
       padding: 0 30px 0 30px;
-      height: 100vh;
+      height: max-content;
     }
   }
 
