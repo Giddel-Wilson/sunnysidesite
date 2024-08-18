@@ -71,6 +71,12 @@
     }
   }
 
+  @media (max-width: 380px) {
+    main {
+      margin: 200px 0 0 0;
+    }
+  }
+
   .gridShell {
     width: 100%;
     height: 90vh;
@@ -103,6 +109,12 @@
   .transformImg {
     padding: 0 0 0 0;
   }
+
+  /* @media (max-width: 855px) {
+    .transformImg {
+      margin: 300px 0 0 0;
+    }
+  } */
 
   .mobile {
     display: none;
