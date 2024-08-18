@@ -23,7 +23,7 @@
       <img class="desktop" src="./image-stand-out.jpg" alt="" />
       <img class="mobile" src="./image-stand-out-mobile.jpg" alt="" />
     </section>
-    <section class="gridInnerShell content">
+    <section class="gridInnerShell content gridShellContent2">
       <h1 class="standOut">Stand out to the right audience</h1>
       <p>
         Using a collaborative formula of designers, researchers, photographers,
@@ -93,6 +93,12 @@
   @media (max-width: 855px) {
     .gridShell {
       flex-direction: column;
+    }
+  }
+
+  @media (max-width: 855px) {
+    .gridShellContent2 {
+      height: 150vh !important;
     }
   }
 
