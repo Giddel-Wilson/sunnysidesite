@@ -63,7 +63,8 @@
 
   @media (max-width: 855px) {
     main {
-      padding: 100px 20px 150px 20px;
+      padding: 30px 20px 20px 20px;
+      height: max-content;
     }
   }
 
@@ -100,10 +101,16 @@
     align-items: center;
     padding: 40px;
   }
-  
+
   @media (max-width: 1020px) {
     .innerShell {
       width: 10%;
+    }
+  }
+
+  @media (max-width: 855px) {
+    .innerShell {
+      width: 100%;
     }
   }
 

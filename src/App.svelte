@@ -1,5 +1,6 @@
 <script>
 	import Hero from "./Hero.svelte";
+  import Grid from "./Grid.svelte";
   import Testimonial from "./Testimonial.svelte";
   import FlexBox from "./FlexBox.svelte";
   import Footer from "./Footer.svelte";
@@ -7,6 +8,7 @@
 
 <main>
 	<Hero />
+  <Grid />
   <Testimonial />
   <FlexBox />
   <Footer />

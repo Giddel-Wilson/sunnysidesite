@@ -1,6 +1,5 @@
 <script>
   import Nav from "./Nav.svelte";
-  import Grid from "./Grid.svelte";
 </script>
 
 <main>
@@ -10,8 +9,6 @@
     <img src="./image-header.jpg" alt="orange slice with blue background" />
   </section>
 </main>
-<Grid />
-
 
 <style>
   main {

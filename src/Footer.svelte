@@ -28,6 +28,13 @@
     background-color: #90d4c5;
     padding: 50px;
   }
+
+  @media (max-width: 855px) {
+    .mainShell {
+      padding: 70px 50px 50px 50px;
+    }
+  }
+
   .innerShell {
     height: 50%;
     display: flex;
@@ -54,6 +61,12 @@
     justify-content: space-between;
     align-items: center;
   }
+
+  @media (max-width: 855px) {
+    .linkShell {
+      width: 60vw;
+    }
+  }
   
   @media (max-width: 1026px) {
     .linkShell a {
@@ -61,12 +74,20 @@
     }
   }
 
-  .iS2 {
+.iS2 {
     width: 15vw;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
   }
+
+  @media (max-width: 855px) {
+    .iS2 {
+      width: 50vw;
+      font-size: small;
+    }
+  }
+
   .iS2 img {
     width: 1.4em;
     height: auto;
