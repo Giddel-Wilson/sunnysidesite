@@ -172,7 +172,7 @@
 
   @media (max-width: 855px) {
     .content {
-      padding: 30px;
+      padding: 30px 40px;
       height: max-content;
     }
   }
