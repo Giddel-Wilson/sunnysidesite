@@ -70,12 +70,12 @@
       height: max-content;
     }
   }
-
+/* 
   @media (max-width: 380px) {
     main {
       margin: 170px 0 0 0;
     }
-  }
+  } */
 
   .gridShell {
     width: 100%;
