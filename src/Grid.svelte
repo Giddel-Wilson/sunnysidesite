@@ -102,10 +102,9 @@
     padding: 0 0 0 0;
   }
 
-  @media (max-width: 415px) {
+  @media (max-width: 380px) {
     .transformImg {
-      padding: 100px 0 0 0;
-      background-color: #FFD302;
+      z-index: 1;
     }
   }
 
@@ -116,7 +115,7 @@
   @media (max-width: 855px) {
     .gridInnerShell {
       width: 100%;
-      height: 70vh;
+      height: 100vh;
     }
   }
 
