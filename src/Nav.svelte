@@ -123,7 +123,7 @@
   a:hover {
     /* color: whitesmoke; */
     opacity: 90%;
-    scale: 1.3;
+    scale: 1.15;
     margin: 0 10px 0 10px;
   }
 
@@ -139,7 +139,7 @@
     color: black;
     background-color: white;
     border-radius: 30px;
-    padding: 12px;
+    padding: 8px 10px;
     font-family: "Abril Fatface";
     font-weight: 100;
     text-transform: uppercase;
