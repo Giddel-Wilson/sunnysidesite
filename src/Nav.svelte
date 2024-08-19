@@ -3,6 +3,12 @@
 
   function toggleMenu() {
     menuOpen = !menuOpen;
+
+  if (menuOpen) {
+      document.body.style.overflow = 'hidden'; // Prevent scrolling
+    } else {
+      document.body.style.overflow = ''; // Restore scrolling
+    }
   }
 </script>
 
