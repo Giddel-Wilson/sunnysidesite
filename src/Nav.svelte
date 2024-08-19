@@ -1,76 +1,107 @@
-<script></script>
+<script>
+  let menuOpen = false;
+
+  function toggleMenu() {
+    menuOpen = !menuOpen;
+  }
+</script>
 
 <main>
   <div class="logoShell">
     <img src="./logo.svg" alt="sunnyside" class="logo" />
   </div>
-  <div class="linkShell">
+  <div class="linkShell {menuOpen ? 'open' : ''}">
     <a href="#">About</a>
     <a href="#">Services</a>
     <a href="#">Projects</a>
-    <a href="#">CONTACT</a>
+    <a href="#">Contact</a>
   </div>
-  <div class="burger">
-    <img src="./icon-hamburger.svg" alt="" />
+  <div class="burger" on:click={toggleMenu}>
+    <img src="./icon-hamburger.svg" alt="Menu" />
   </div>
 </main>
 
 <style>
   main {
-    padding: 50px;
+    padding: 50px 40px 20px 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 20vh;
+    height: 10vh;
     width: 100%;
-  }
-  
-  @media (max-width: 855px) {
-    main {
-      padding: 50px 35px 50px 35px;
-    }
   }
 
   .linkShell {
-    width: 30vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
+    gap: 20px;
   }
 
-  @media (max-width: 1070px) {
+  @media (max-width: 1024px) {
     .linkShell {
-      width: 35vw;
-    }
-  }
-
-  @media (max-width: 1026px) {
-    .linkShell {
+      gap: 15px;
       font-size: small;
     }
   }
 
-  @media (max-width: 855px) {
+  @media (max-width: 768px) {
+    main {
+      padding: 40px 20px 20px 20px;
+    }
+
     .linkShell {
       display: none;
+      position: absolute;
+      top: 70px;
+      right: 20px;
+      background: white;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 40vw;
+      padding: 15px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      z-index: 99;
+    }
+
+    .linkShell.open {
+      display: flex;
+    }
+
+    .burger {
+      display: block;
+      cursor: pointer;
+    }
+
+    .linkShell a {
+      margin-bottom: 10px;
     }
   }
 
-  .burger {
-    display: none;
-  }
-
-  @media (max-width: 855px) {
+  @media (min-width: 769px) {
     .burger {
-      display: block;
+      display: none;
     }
   }
 
   a {
     color: white;
+    text-decoration: none;
   }
+
+  @media (max-width: 768px) {
+    a {
+      width: 100%;
+      text-align: left;
+      color: black;
+      border-bottom: 1px solid gray;
+      padding: 0 0 10px 0;
+    }
+  }
+
   a:last-child {
     color: black;
     background-color: white;
@@ -78,6 +109,17 @@
     padding: 12px;
     font-family: "Abril Fatface";
     font-weight: 100;
-    /* font-weight: 600; */
+    text-transform: uppercase;
+  }
+
+  @media (max-width: 768px) {
+    a:last-child {
+      border-radius: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 600;
+      text-transform: capitalize;
+      border-bottom: none;
+    }
   }
 </style>

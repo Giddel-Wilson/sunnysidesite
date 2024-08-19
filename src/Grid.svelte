@@ -13,13 +13,13 @@
 
       <h3>LEARN MORE</h3>
     </section>
-    <section class="gridInnerShell transformImg">
+    <section class="gridInnerShell gsImg">
       <img class="desktop" src="./image-transform.jpg" alt="" />
       <img class="mobile" src="./image-transform-mobile.jpg" alt="" />
     </section>
   </div>
-  <div class="gridShell">
-    <section class="gridInnerShell">
+  <div class="gridShell gs1">
+    <section class="gridInnerShell gsImG">
       <img class="desktop" src="./image-stand-out.jpg" alt="" />
       <img class="mobile" src="./image-stand-out-mobile.jpg" alt="" />
     </section>
@@ -65,7 +65,7 @@
     flex-wrap: nowrap;
   }
 
-  @media (max-width: 855px) {
+  @media (max-width: 769px) {
     main {
       height: max-content;
     }
@@ -84,53 +84,39 @@
     flex-direction: row;
   }
 
-  @media (max-width: 855px) {
+  @media (max-width: 769px) {
     .gridShell {
       height: 100vh;
     }
   }
 
-  @media (max-width: 855px) {
+  @media (max-width: 769px) {
+    .gs1 {
+      height: max-content;
+    }
+  }
+
+  @media (max-width: 769px) {
     .gridShell {
       flex-direction: column;
     }
   }
 
-  /* .gridShellContent2 {
-    height: 100vh;
-  } 
-
-  @media (max-width: 380px) {
-    .gridShellContent2 {
-      height: 120vh;
-    }
-  } */
-
   .gsEX {
     flex-direction: row;
   }
 
-  @media (max-width: 855px) {
+  @media (max-width: 769px) {
     .gsEX {
       flex-direction: column-reverse;
     }
   }
 
-  .transformImg {
-    padding: 0 0 0 0;
-  }
-
-  /* @media (max-width: 855px) {
-    .transformImg {
-      margin: 300px 0 0 0;
-    }
-  } */
-
   .mobile {
     display: none;
   }
 
-  @media (max-width: 855px) {
+  @media (max-width: 769px) {
     .mobile {
       display: block;
     }
@@ -140,7 +126,7 @@
     display: block;
   }
 
-  @media (max-width: 855px) {
+  @media (max-width: 769px) {
     .desktop {
       display: none;
     }
@@ -150,7 +136,7 @@
     width: 50%;
   }
 
-  @media (max-width: 855px) {
+  @media (max-width: 769px) {
     .gridInnerShell {
       width: 100%;
       height: 50vh;
@@ -163,6 +149,12 @@
     object-fit: cover;
   }
 
+  /* @media (max-width: 769px) {
+  .gridInnerShell img {
+    height: 50vh;
+  }
+  } */
+
   .content {
     padding: 120px;
     display: flex;
@@ -170,10 +162,10 @@
     justify-content: center;
   }
 
-  @media (max-width: 855px) {
+  @media (max-width: 769px) {
     .content {
       padding: 30px 40px;
-      height: max-content;
+      height: 50vh;
     }
   }
 
@@ -181,7 +173,7 @@
     width: 90%;
   }
 
-  @media (max-width: 855px) {
+  @media (max-width: 769px) {
     .transform {
       text-align: center;
     }
@@ -205,13 +197,13 @@
     }
   }
 
-  @media (max-width: 855px) {
+  @media (max-width: 769px) {
     h1 {
       padding: 0 0 0 0;
     }
   }
 
-  @media (max-width: 855px) {
+  @media (max-width: 769px) {
     .transform {
       font-size: xx-large;
     }
@@ -221,7 +213,7 @@
     width: 35vw;
   }
 
-  @media (max-width: 855px) {
+  @media (max-width: 769px) {
     .standOut {
       width: 100%;
       text-align: center;
@@ -246,7 +238,7 @@
     }
   }
 
-  @media (max-width: 855px) {
+  @media (max-width: 769px) {
     h3 {
       justify-content: center;
     }
@@ -274,7 +266,7 @@
     }
   }
 
-  @media (max-width: 855px) {
+  @media (max-width: 769px) {
     p {
       text-align: center;
     }
@@ -298,7 +290,7 @@
     background-color: #9adbcb;
   }
 
-  @media (max-width: 855px) {
+  @media (max-width: 769px) {
     .firstCard {
       height: 120vh;
     }
@@ -314,7 +306,7 @@
     background-color: #58c7ff;
   }
 
-  @media (max-width: 855px) {
+  @media (max-width: 769px) {
     .secondCard {
       height: 120vh;
     }
@@ -334,7 +326,7 @@
     /* z-index: 1; */
   }
 
-  /* @media (max-width: 855px) {
+  /* @media (max-width: 769px) {
     .cardContent {
       margin: 0 0 -30px 0;
     }
@@ -350,7 +342,7 @@
     }
   }
 
-  @media (max-width: 855px) {
+  @media (max-width: 769px) {
     .cardContent h1 {
       font-size: larger;
     }
@@ -371,7 +363,7 @@
     }
   }
 
-  @media (max-width: 855px) {
+  @media (max-width: 769px) {
     .cardContent p {
       font-size: small;
       line-height: 20px;

@@ -42,7 +42,8 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
   }
-  img, a {
+  img,
+  a {
     color: #2c7265;
     fill: #2c7265;
   }
@@ -54,7 +55,8 @@
   .iS1 img {
     width: 12em;
     height: auto;
-    filter: invert(36%) sepia(91%) saturate(276%) hue-rotate(120deg) brightness(67%) contrast(60%);
+    filter: invert(36%) sepia(91%) saturate(276%) hue-rotate(120deg)
+      brightness(67%) contrast(60%);
   }
   .linkShell {
     width: 20vw;
@@ -68,14 +70,14 @@
       width: 60vw;
     }
   }
-  
+
   @media (max-width: 1026px) {
     .linkShell a {
       font-size: small;
     }
   }
 
-.iS2 {
+  .iS2 {
     width: 15vw;
     flex-direction: row;
     justify-content: space-around;
