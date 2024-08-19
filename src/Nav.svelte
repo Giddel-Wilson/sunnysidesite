@@ -56,14 +56,14 @@
       display: none;
       position: absolute;
       top: 70px;
-      right: 20px;
+      right: 0;
       background: white;
       flex-direction: column;
       align-items: flex-start;
-      width: 40vw;
-      padding: 15px;
+      width: 100vw;
+      height: 90vh;
+      padding: 40px 30px;
       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-      border-radius: 8px;
       z-index: 99;
     }
 
@@ -97,8 +97,8 @@
       width: 100%;
       text-align: left;
       color: black;
-      border-bottom: 1px solid gray;
-      padding: 0 0 10px 0;
+      /* border-bottom: 1px solid gray; */
+      /* padding: 0 0 10px 0; */
     }
   }
 

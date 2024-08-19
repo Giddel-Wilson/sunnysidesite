@@ -29,10 +29,9 @@
     padding: 50px;
   }
 
-  @media (max-width: 855px) {
+  @media (max-width: 769px) {
     .mainShell {
-      padding: 80px 50px 50px 50px;
-      height: 45vh;
+      height: 35vh;
     }
   }
 
@@ -65,7 +64,7 @@
     align-items: center;
   }
 
-  @media (max-width: 855px) {
+  @media (max-width: 769px) {
     .linkShell {
       width: 60vw;
     }
@@ -84,7 +83,7 @@
     align-items: center;
   }
 
-  @media (max-width: 855px) {
+  @media (max-width: 769px) {
     .iS2 {
       width: 50vw;
       font-size: small;
