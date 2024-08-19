@@ -469,28 +469,28 @@ var app = (function () {
     			add_location(img0, file$6, 16, 4, 324);
     			attr_dev(div0, "class", "logoShell");
     			add_location(div0, file$6, 15, 2, 295);
-    			attr_dev(div1, "class", div1_class_value = "pointer " + (/*menuOpen*/ ctx[0] ? 'open' : '') + " svelte-z2b4na");
+    			attr_dev(div1, "class", div1_class_value = "pointer " + (/*menuOpen*/ ctx[0] ? 'open' : '') + " svelte-hoczfo");
     			add_location(div1, file$6, 18, 2, 391);
     			attr_dev(a0, "href", "#");
-    			attr_dev(a0, "class", "svelte-z2b4na");
+    			attr_dev(a0, "class", "svelte-hoczfo");
     			add_location(a0, file$6, 20, 4, 501);
     			attr_dev(a1, "href", "#");
-    			attr_dev(a1, "class", "svelte-z2b4na");
+    			attr_dev(a1, "class", "svelte-hoczfo");
     			add_location(a1, file$6, 21, 4, 528);
     			attr_dev(a2, "href", "#");
-    			attr_dev(a2, "class", "svelte-z2b4na");
+    			attr_dev(a2, "class", "svelte-hoczfo");
     			add_location(a2, file$6, 22, 4, 558);
     			attr_dev(a3, "href", "#");
-    			attr_dev(a3, "class", "svelte-z2b4na");
+    			attr_dev(a3, "class", "svelte-hoczfo");
     			add_location(a3, file$6, 23, 4, 588);
-    			attr_dev(div2, "class", div2_class_value = "linkShell " + (/*menuOpen*/ ctx[0] ? 'open' : '') + " svelte-z2b4na");
+    			attr_dev(div2, "class", div2_class_value = "linkShell " + (/*menuOpen*/ ctx[0] ? 'open' : '') + " svelte-hoczfo");
     			add_location(div2, file$6, 19, 2, 447);
     			if (!src_url_equal(img1.src, img1_src_value = "./icon-hamburger.svg")) attr_dev(img1, "src", img1_src_value);
     			attr_dev(img1, "alt", "Menu");
     			add_location(img1, file$6, 26, 4, 673);
-    			attr_dev(div3, "class", "burger svelte-z2b4na");
+    			attr_dev(div3, "class", "burger svelte-hoczfo");
     			add_location(div3, file$6, 25, 2, 625);
-    			attr_dev(main, "class", "svelte-z2b4na");
+    			attr_dev(main, "class", "svelte-hoczfo");
     			add_location(main, file$6, 14, 0, 285);
     		},
     		l: function claim(nodes) {
@@ -521,11 +521,11 @@ var app = (function () {
     			}
     		},
     		p: function update(ctx, [dirty]) {
-    			if (dirty & /*menuOpen*/ 1 && div1_class_value !== (div1_class_value = "pointer " + (/*menuOpen*/ ctx[0] ? 'open' : '') + " svelte-z2b4na")) {
+    			if (dirty & /*menuOpen*/ 1 && div1_class_value !== (div1_class_value = "pointer " + (/*menuOpen*/ ctx[0] ? 'open' : '') + " svelte-hoczfo")) {
     				attr_dev(div1, "class", div1_class_value);
     			}
 
-    			if (dirty & /*menuOpen*/ 1 && div2_class_value !== (div2_class_value = "linkShell " + (/*menuOpen*/ ctx[0] ? 'open' : '') + " svelte-z2b4na")) {
+    			if (dirty & /*menuOpen*/ 1 && div2_class_value !== (div2_class_value = "linkShell " + (/*menuOpen*/ ctx[0] ? 'open' : '') + " svelte-hoczfo")) {
     				attr_dev(div2, "class", div2_class_value);
     			}
     		},
@@ -1423,40 +1423,40 @@ var app = (function () {
     			img4 = element("img");
     			if (!src_url_equal(img0.src, img0_src_value = "./logo.svg")) attr_dev(img0, "src", img0_src_value);
     			attr_dev(img0, "alt", "");
-    			attr_dev(img0, "class", "svelte-1fiq8go");
+    			attr_dev(img0, "class", "svelte-1un0ohk");
     			add_location(img0, file$1, 4, 4, 83);
     			attr_dev(a0, "href", "#");
-    			attr_dev(a0, "class", "svelte-1fiq8go");
+    			attr_dev(a0, "class", "svelte-1un0ohk");
     			add_location(a0, file$1, 6, 6, 151);
     			attr_dev(a1, "href", "#");
-    			attr_dev(a1, "class", "svelte-1fiq8go");
+    			attr_dev(a1, "class", "svelte-1un0ohk");
     			add_location(a1, file$1, 7, 6, 180);
     			attr_dev(a2, "href", "#");
-    			attr_dev(a2, "class", "svelte-1fiq8go");
+    			attr_dev(a2, "class", "svelte-1un0ohk");
     			add_location(a2, file$1, 8, 6, 212);
-    			attr_dev(div0, "class", "linkShell svelte-1fiq8go");
+    			attr_dev(div0, "class", "linkShell svelte-1un0ohk");
     			add_location(div0, file$1, 5, 4, 120);
-    			attr_dev(div1, "class", "innerShell iS1 svelte-1fiq8go");
+    			attr_dev(div1, "class", "innerShell iS1 svelte-1un0ohk");
     			add_location(div1, file$1, 3, 2, 49);
     			if (!src_url_equal(img1.src, img1_src_value = "./icon-facebook.svg")) attr_dev(img1, "src", img1_src_value);
     			attr_dev(img1, "alt", "facebook logo");
-    			attr_dev(img1, "class", "svelte-1fiq8go");
+    			attr_dev(img1, "class", "svelte-1un0ohk");
     			add_location(img1, file$1, 12, 4, 296);
     			if (!src_url_equal(img2.src, img2_src_value = "./icon-instagram.svg")) attr_dev(img2, "src", img2_src_value);
     			attr_dev(img2, "alt", "facebook logo");
-    			attr_dev(img2, "class", "svelte-1fiq8go");
+    			attr_dev(img2, "class", "svelte-1un0ohk");
     			add_location(img2, file$1, 13, 4, 355);
     			if (!src_url_equal(img3.src, img3_src_value = "./icon-twitter.svg")) attr_dev(img3, "src", img3_src_value);
     			attr_dev(img3, "alt", "facebook logo");
-    			attr_dev(img3, "class", "svelte-1fiq8go");
+    			attr_dev(img3, "class", "svelte-1un0ohk");
     			add_location(img3, file$1, 14, 4, 415);
     			if (!src_url_equal(img4.src, img4_src_value = "./icon-pinterest.svg")) attr_dev(img4, "src", img4_src_value);
     			attr_dev(img4, "alt", "facebook logo");
-    			attr_dev(img4, "class", "svelte-1fiq8go");
+    			attr_dev(img4, "class", "svelte-1un0ohk");
     			add_location(img4, file$1, 15, 4, 473);
-    			attr_dev(div2, "class", "innerShell iS2 svelte-1fiq8go");
+    			attr_dev(div2, "class", "innerShell iS2 svelte-1un0ohk");
     			add_location(div2, file$1, 11, 2, 262);
-    			attr_dev(main, "class", "mainShell svelte-1fiq8go");
+    			attr_dev(main, "class", "mainShell svelte-1un0ohk");
     			add_location(main, file$1, 2, 0, 21);
     		},
     		l: function claim(nodes) {

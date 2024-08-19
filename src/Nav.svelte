@@ -120,6 +120,13 @@
     text-decoration: none;
   }
 
+  a:hover {
+    /* color: whitesmoke; */
+    opacity: 90%;
+    scale: 1.3;
+    margin: 0 10px 0 10px;
+  }
+
   @media (max-width: 768px) {
     a {
       text-align: center;
@@ -148,5 +155,7 @@
   a:last-child:hover {
     background-color: #70CFFF;
     color: whitesmoke;
+    scale: 1;
+    margin: 0;
   }
 </style>

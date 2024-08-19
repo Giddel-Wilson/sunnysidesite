@@ -104,5 +104,6 @@
 
   .iS2 img:hover {
     filter: brightness(6) saturate(0.2) contrast(0.8) sepia(0.2);
+    cursor: pointer;
   }
 </style>
