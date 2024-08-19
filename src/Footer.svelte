@@ -41,11 +41,17 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
   }
-  img,
+
   a {
     color: #2c7265;
-    fill: #2c7265;
+    transition: filter 0.3s ease;
   }
+
+  a:hover {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+
   .iS1 {
     flex-direction: column;
     justify-content: space-around;
@@ -93,5 +99,10 @@
   .iS2 img {
     width: 1.4em;
     height: auto;
+    transition: filter 0.3s ease;
+  }
+
+  .iS2 img:hover {
+    filter: brightness(6) saturate(0.2) contrast(0.8) sepia(0.2);
   }
 </style>

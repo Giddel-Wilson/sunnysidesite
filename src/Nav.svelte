@@ -4,10 +4,10 @@
   function toggleMenu() {
     menuOpen = !menuOpen;
 
-  if (menuOpen) {
-      document.body.style.overflow = 'hidden'; // Prevent scrolling
+    if (menuOpen) {
+      document.body.style.overflow = "hidden"; // Prevent scrolling
     } else {
-      document.body.style.overflow = ''; // Restore scrolling
+      document.body.style.overflow = ""; // Restore scrolling
     }
   }
 </script>
@@ -16,6 +16,7 @@
   <div class="logoShell">
     <img src="./logo.svg" alt="sunnyside" class="logo" />
   </div>
+  <div class="pointer {menuOpen ? 'open' : ''}"></div>
   <div class="linkShell {menuOpen ? 'open' : ''}">
     <a href="#">About</a>
     <a href="#">Services</a>
@@ -57,23 +58,38 @@
     main {
       padding: 40px 20px 20px 20px;
     }
+    .pointer {
+      width: 90vw;
+      border: solid 20px transparent;
+      border-right-color: #fff;
+      position: absolute;
+      margin: 10vh auto 0 0;
+      z-index: 999;
+    }
 
     .linkShell {
       display: none;
       position: absolute;
-      top: 70px;
-      right: 0;
+      top: 11vh;
+      right: 30;
       background: white;
       flex-direction: column;
       align-items: flex-start;
-      width: 100vw;
-      height: 90vh;
+      width: 90vw;
+      height: max-content;
       padding: 40px 30px;
       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
       z-index: 99;
+      align-items: center;
+      gap: 20px;
     }
 
-    .linkShell.open {
+    .pointer {
+      display: none;
+    }
+
+    .linkShell.open,
+    .pointer.open {
       display: flex;
     }
 
@@ -84,6 +100,12 @@
 
     .linkShell a {
       margin-bottom: 10px;
+    }
+  }
+
+  @media only screen and (width <= 380px) {
+    .pointer {
+      margin: 10vh auto 0 0;
     }
   }
 
@@ -100,11 +122,9 @@
 
   @media (max-width: 768px) {
     a {
-      width: 100%;
-      text-align: left;
-      color: black;
-      /* border-bottom: 1px solid gray; */
-      /* padding: 0 0 10px 0; */
+      text-align: center;
+      color: gray;
+      font-size: medium;
     }
   }
 
@@ -116,16 +136,17 @@
     font-family: "Abril Fatface";
     font-weight: 100;
     text-transform: uppercase;
+    transition: filter 0.3s ease;
   }
 
   @media (max-width: 768px) {
     a:last-child {
-      border-radius: 0;
-      padding: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      font-weight: 600;
-      text-transform: capitalize;
       border-bottom: none;
+      background-color: #ffd600;
     }
+  }
+  a:last-child:hover {
+    background-color: #70CFFF;
+    color: whitesmoke;
   }
 </style>
