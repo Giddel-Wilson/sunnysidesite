@@ -124,7 +124,7 @@
     /* color: whitesmoke; */
     opacity: 90%;
     scale: 1.15;
-    margin: 0 10px 0 10px;
+    gap: 5px;
   }
 
   @media (max-width: 768px) {
