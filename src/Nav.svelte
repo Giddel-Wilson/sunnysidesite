@@ -139,7 +139,7 @@
     color: black;
     background-color: white;
     border-radius: 30px;
-    padding: 8px 10px;
+    padding: 10px 8px;
     font-family: "Abril Fatface";
     font-weight: 100;
     text-transform: uppercase;
